@@ -15,3 +15,7 @@ This was made so people can get to know me and what i do, much better.
 | #3066be | ![](https://via.placeholder.com/10/3066be?text=+) |
 | #fbfff1 | ![](https://via.placeholder.com/10/fbfff1?text=+) |
 
+## Author
+
+- [@alisogg](https://www.github.com/alisogg)
+
