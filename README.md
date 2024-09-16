@@ -8,7 +8,7 @@ This was made so people can get to know me and what i do, much better.
 
 ## Palette
 
-| Hex           | COlor                                                                |
+| Hex           | Color                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | #3c3744 | ![](https://via.placeholder.com/10/3c3744?text=+) |
 | #090c9b | ![](https://via.placeholder.com/10/090c9b?text=+) |
