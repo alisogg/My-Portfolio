@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="icon" type="image/png" href="img/icon.png">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Alicia Gómez</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Cybersecurity Student @ ITESO</p>
+            <img src="img/ali1.jpeg" alt="A picture of Alicia Gomez" class="intro__img">
+        </section>
+        
+        
+        <!-- Certifications  -->
+        <section class="my-services" id="certifications">
+            <h2 class="section__title section__title--services">🔐 Certifications</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>The Frontend Developer Career Path</h3>
+                    <p>Launch your career as a frontend developer with this immersive path. Created in collaboration with Mozilla MDN, ensuring that you'll learn the latest best practices for modern web development, and stand out from other job applicants.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> 
+            </div> 
+            
+            <a href="#projects" class="btn">projects i've done</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am 🪴</h2>
+           <p class="section__subtitle section__subtitle--about">Engineer in GDL with a love for cats and musicals.</p>
+           
+           <div class="about-me__body">
+               <p>🌐 I'm studying Cybersecurity Engineering @ ITESO in GDL, México.</p>
+               <p>✨ Native Spanish speaker, C1 @ English and learning German.</p>
+               <p>💻 I really love doing frontend and i'm improving my backend skills as well.</p>
+               <p>✍🏻 Learning: Course for the AWS Certified Cloud Practitioner CLF-C02.</p>
+           </div>
+           
+           <img src="img/ali2.jpeg" alt="Alicia with her cat" class="about-me__img">
+        </section>
+        
+        <!-- My Projects -->
+        <section class="my-work" id="projects">
+            <h2 class="section__title section__title--work">🪄 My Projects</h2>
+            <p class="section__subtitle section__subtitle--work">A little bit of what i've done</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://github.com/alisogg/CyberMusik" class="portfolio__item" target="_blank">
+                    <img src="img/CM.png" alt="" class="portfolio__img" >
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://github.com/alisogg/The-Java-Arcade" class="portfolio__item">
+                    <img src="img/TJA.png" alt="" class="portfolio__img" target="_blank">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item" target="_blank">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" >
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item" target="_blank">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" >
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item" target="_blank">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" >
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item" target="_blank">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:alisogg@gmail.com" class="footer__link">📬 Email Me!</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/alisogg"  target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/alisogg"  target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/alisogg/"  target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>  
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
