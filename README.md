@@ -2,7 +2,9 @@
 # My Portfolio ✨
 
 Portfolio made with HTML, CSS and JS.
-This was made so people can get to know me and what i do, much better.
+This was made so people can get to know me and what I do, much better.
+
+You can access the page here: https://aliciagomezg.netlify.app/
 
 ![](https://github.com/alisogg/My-Portfolio/blob/main/me.png)
 
