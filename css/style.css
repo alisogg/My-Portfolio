@@ -329,8 +329,12 @@ ul{
 .custom-list li::before{
     content: "✦ ";
   }
+
+a:visited {
+    color: var(--clr-accent); /* Cambia el color aquí */
+}
   
-  .button-container {
+.button-container {
     text-align: center; /* Centra el botón horizontalmente */
     margin-top: 20px; /* Añade espacio arriba del botón si es necesario */
 }
