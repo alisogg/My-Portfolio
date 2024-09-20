@@ -288,8 +288,8 @@ header {
 
 
 
-/*  My services section  */
-.my-services {
+/*  Certifications section  */
+.my-cyc{
     background-color: var(--clr-dark);
     background-image: url(../img/cyber.png);
     background-size: cover;
@@ -298,12 +298,12 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--cycs {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section__title--cycs::after {
     content: '';
     display: block;
     width: 2em;
@@ -313,24 +313,46 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.cycs {
     margin-bottom: 4em;
 }
 
-.service {
+.cyc {
     max-width: 500px;
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+  }
+  
+.custom-list li::before{
+    content: "✦ ";
+  }
+  
+  .button-container {
+    text-align: center; /* Centra el botón horizontalmente */
+    margin-top: 20px; /* Añade espacio arriba del botón si es necesario */
+}
+
+.btn {
+    display: inline-block; /* Asegura que el botón se comporte como un elemento en línea */
+    padding: 10px 20px; /* Ajusta el relleno del botón */
+    background-color: var(--clr-index); /* Color de fondo del botón */
+    color: var(--clr-light); /* Color del texto del botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
 @media (min-width: 800px) {
-    .services {
+    .cycs {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .service + .service {
+    .cyc + .cyc {
         margin-left: 2em;
     }
 }
@@ -402,6 +424,11 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+}
+
+.portfolio__img {
+    height: 250px; /* Set a smaller height */
+    object-fit: cover; /* Ensures the image fits nicely in the smaller height */
 }
 
 .portfolio__item:focus {
